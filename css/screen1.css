@@ -1,0 +1,29 @@
+
+
+/* Generals */
+
+*{
+  box-sizing: border-box;
+  width: 100%;
+    width: 100vw;
+
+}
+
+
+
+/* Hero section */
+
+body{
+  width: 85.375rem;
+  height: 48rem;
+  background: url('assets/images/hero.jpg');
+}
+
+
+.hero {
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
