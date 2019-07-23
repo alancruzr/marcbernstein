@@ -1,31 +1,58 @@
-/* Generals */
+/* Generals ba*/
 *{
   box-sizing: border-box;
-  width: 100%;
-    width: 100vw;
+  max-width: 100%;
+  height: auto;
 }
+
+html{
+  width: 1366px;
+  height: 768px;
+}
+
+
 body{
   width: 85.375rem;
   height: 48rem;
+  max-width: 100%;
+
 }
 
 li{
   list-style-type: none;
+  color: white;
+  font-family: "Optima", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: #743b0f;
 }
 
 
 /* Hero section */
-
-div {
-  position: relative;
+/* background image*/
+.hero{
+  background-image: url('https://i.imgur.com/E259yZC.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 48rem;
+}
+/* Style for "logo" */
+.logo{
+width: 19.625rem;
+height: 6rem;
+padding-top: 1.5rem;
+padding-left: 1.5rem;
 }
 
-.herologo {
-  position: absolute;
-  width: 19.625rem;
-  height: 5rem;
-  padding-top: 1.5rem;
-  padding-left: 1.56rem;
-
-
+.navigation{
+  position: relative;
+  margin-top: 2.5rem;
 }
