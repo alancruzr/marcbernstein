@@ -5,18 +5,11 @@
   height: auto;
 }
 
-html{
+html, body{
   width: 1366px;
   height: 768px;
 }
 
-
-body{
-  width: 85.375rem;
-  height: 48rem;
-  max-width: 100%;
-
-}
 
 li{
   list-style-type: none;
@@ -55,4 +48,19 @@ padding-left: 1.5rem;
 .navigation{
   position: relative;
   margin-top: 2.5rem;
+}
+
+
+
+
+
+/* Footer 1 and 2 */
+
+.footer1{
+
+
+}
+
+.footer2{
+
 }
