@@ -1,29 +1,31 @@
-
-
 /* Generals */
-
 *{
   box-sizing: border-box;
   width: 100%;
     width: 100vw;
-
+}
+body{
+  width: 85.375rem;
+  height: 48rem;
 }
 
+li{
+  list-style-type: none;
+}
 
 
 /* Hero section */
 
-body{
-  width: 85.375rem;
-  height: 48rem;
-  background: url('assets/images/hero.jpg');
+div {
+  position: relative;
 }
 
+.herologo {
+  position: absolute;
+  width: 19.625rem;
+  height: 5rem;
+  padding-top: 1.5rem;
+  padding-left: 1.56rem;
 
-.hero {
-  width: 100vw;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
