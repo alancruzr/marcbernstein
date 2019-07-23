@@ -66,13 +66,19 @@ padding-left: 1.5rem;
   margin-top: 0;
   padding-top: 2.75rem
 }
-
 .search{
   width: 3.5rem;
   height: 3rem;
+}
+.footer2 {
+  height: 10rem;
+  width: auto;
+  background-color: black;
+  margin-bottom: 4rem;
+}
 
-
-
-.footer2{
-
+.footerlogo{
+  width: 5.125rem;
+  height: 3rem;
+  margin: 0 auto;
 }
