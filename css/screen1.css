@@ -4,19 +4,15 @@
   max-width: 100%;
   height: auto;
 }
-
 html, body{
   width: 1366px;
   height: 768px;
 }
-
-
 li{
   list-style-type: none;
   color: white;
   font-family: "Optima", sans-serif;
 }
-
 a {
     text-decoration: none;
 }
@@ -26,8 +22,6 @@ a:link, a:visited {
 a:hover {
     color: #743b0f;
 }
-
-
 /* Hero section */
 /* background image*/
 .hero{
@@ -35,7 +29,9 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 48rem;
+  height: 100%;
+  margin-bottom: 0;
+  padding-bottom: auto;
 }
 /* Style for "logo" */
 .logo{
@@ -48,18 +44,35 @@ padding-left: 1.5rem;
 .navigation{
   position: relative;
   margin-top: 2.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-
-
-
-
 
 /* Footer 1 and 2 */
 
 .footer1{
-
+  height: 14.12rem;
+  width: 100%;
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
 
 }
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.box1 , .box2 , .box3 , .box4 , .box5 {
+  margin-top: 0;
+  padding-top: 2.75rem
+
+}
+
 
 .footer2{
 
