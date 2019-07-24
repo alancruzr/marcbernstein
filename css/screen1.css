@@ -25,7 +25,7 @@ a:hover {
 /* Hero section */
 /* background image*/
 .hero{
-  background-image: url('https://i.imgur.com/E259yZC.jpg');
+  background-image: url('https://i.imgur.com/7ob18zM.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100vw;
@@ -33,6 +33,12 @@ a:hover {
   margin-bottom: 0;
   padding-bottom: auto;
 }
+
+
+
+
+
+
 /* Style for "logo" */
 .logo{
 width: 19.625rem;
