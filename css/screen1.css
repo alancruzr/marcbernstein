@@ -3,6 +3,8 @@
   box-sizing: border-box;
   max-width: 100%;
   height: auto;
+  font-family: "Optima", sans-serif;
+
 }
 html, body{
   width: 1366px;
@@ -53,13 +55,13 @@ a:hover {
 }
 
 
-
 /* Style for "logo" */
 .logo{
 width: 19.625rem;
-height: 6rem;
-padding-top: 1.5rem;
+height: 5rem;
+padding-top: 0;
 padding-left: 1.5rem;
+margin-top: 4rem;
 }
 
 .navigation{
