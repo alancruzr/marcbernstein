@@ -139,19 +139,21 @@ margin-top: 4rem;
 /* Style for image 2 */
 
 /* Container needed to position the button. Adjust the width as needed */
-  .image2 {
+  .styledlandingbutton {
     position: relative;
     width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   /* Make the image responsive */
-  .image2 img {
+  .styledlandingbutton img {
     width: 100%;
     height: auto;
   }
 
   /* Style the button and place it in the middle of the container/image */
-  .image2 .btn {
+  .styledlandingbutton .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -169,15 +171,15 @@ height: 6.813rem;
 border: 0.313rem solid #ffffff;
   }
 
-  .image2 .btn:hover {
+  .styledlandingbutton btn:hover {
     background-color: black;
   }
 
 
-}
 
-/* Style for image 3 */
 
+
+/* style for image 3 */
 
 
 /* Footer 1 and 2 */
