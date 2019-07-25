@@ -25,6 +25,16 @@ a:hover {
     color: #743b0f;
 }
 
+input{
+   background-color: transparent;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-width: .2px;
+   color: white;
+   padding-top: 1rem;
+
+  }
 
 /* Hero section */
 /* background image*/
