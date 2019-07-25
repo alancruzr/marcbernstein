@@ -22,6 +22,8 @@ a:link, a:visited {
 a:hover {
     color: #743b0f;
 }
+
+
 /* Hero section */
 /* background image*/
 .hero{
@@ -35,7 +37,20 @@ a:hover {
 }
 
 
+.searchitem{
+  position: static;
+  width: 3.5rem;
+  height: 3rem;
+  margin-left: 72rem;
+  margin-top: 1rem;
+}
 
+.signin{
+  margin-left: 72rem;
+  color: white;
+  margin-bottom: -10rem;
+
+}
 
 
 
