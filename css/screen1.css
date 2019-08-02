@@ -210,7 +210,6 @@ margin-top: 5rem;
 
 /* The styling for the static div. */
 
-/* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
   background-image: url('https://i.imgur.com/sPq2lHF.jpg');
 }
@@ -220,28 +219,32 @@ margin-top: 5rem;
 }
 
 
-/* Container needed to position the button. Adjust the width as needed */
 
 
 
-/* Button inside parallax images */
-.styledlandingbutton .btn {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   background-color: transparent;
-   color: white;
-   font-size: 16px;
-   padding: 12px 24px;
-   border: 1px 1px 1px 1px grey;
-   border-width: 2.5px;
-   cursor: pointer;
-   width: 18.563rem;
+
+  /* Button in the middle of the container/image */
+  .styledlandingbutton  {
+    position:sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px 1px 1px 1px grey;
+    border-width: 2.5px;
+    cursor: pointer;
+    width: 18.563rem;
 height: 6.813rem;
 border: 0.313rem solid #ffffff;
- }
+  }
+
+  .styledlandingbutton btn:hover {
+    background-color: black;
+  }
 
 
 
