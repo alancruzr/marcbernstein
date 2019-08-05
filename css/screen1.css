@@ -189,9 +189,6 @@ border: 0.313rem solid #ffffff;
     background-color: black;
   }
 
-
-
-
 /* Footer 1 and 2 */
 .footer1{
   text-align: left;
@@ -207,11 +204,11 @@ border: 0.313rem solid #ffffff;
   display: flex;
   flex-direction: row;
   font-size: 12px;
+  line-height: 1.2rem;
   justify-content: space-around;
   padding-top: 0;
   margin-top: 0;
   background-color: black;
-
 }
 
 
