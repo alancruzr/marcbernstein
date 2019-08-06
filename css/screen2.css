@@ -107,6 +107,11 @@ button{
 
 }
 
+
+span{
+  font-size: 1rem;
+}
+
 footer{
 }
 
@@ -116,9 +121,9 @@ footer{
 .logo{
 max-width:19.625rem;
 height:auto;
-padding-top: 2rem;
+padding-top: 2.3rem;
 padding-left: 1.9rem;
-margin-top: 5rem;
+margin-top: 0;
 }
 
 .slide1{
@@ -137,11 +142,8 @@ height: 100vh;
 height: 21.5rem;
 color: #ffffff;
 font-family: Optima;
-font-size: 1.125rem;
+font-size: .625rem;
 font-weight: 400;
 line-height: 1.875rem;
-}
-
-.rightimage{
-
+padding: 2rem 2rem 2rem 2rem;
 }
