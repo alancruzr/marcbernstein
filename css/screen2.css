@@ -1,0 +1,139 @@
+
+/* Generals ba*/
+*{
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  font-family: "Optima", sans-serif;
+
+}
+
+
+/* CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+li{
+  color: white;
+  font-family: "Optima", sans-serif;
+}
+a {
+    text-decoration: none;
+  display:block;
+  width:inherit;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: #743b0f;
+}
+
+input{
+   background-color: transparent;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-width: .2px;
+   color: white;
+   padding-top: 1rem;
+
+  }
+
+div{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+
+}
+
+img{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+button{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+footer{
+}
+
+
+
+/* Content */
+
+/* Style for "logo" */
+.logo{
+max-width:19.625rem;
+height:auto;
+padding-top: 2rem;
+padding-left: 1.9rem;
+margin-top: 5rem;
+}
+
+.slide1{
+  background-color: black;
+  width: 100vw;
+height: 100vh;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+}
+
+.description{
+  color: white;
+}
