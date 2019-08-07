@@ -115,6 +115,11 @@ span{
   font-size: 1rem;
 }
 
+scrollbar-color{
+  color: blue;
+}
+
+
 footer{
 }
 
@@ -156,4 +161,9 @@ padding: 2rem 2rem 2rem 2rem;
   width: 50vw;
   margin-top: -8.75rem;
   padding-top: 5rem;
+}
+
+#number2{
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
