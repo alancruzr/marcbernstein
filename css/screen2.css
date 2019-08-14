@@ -128,7 +128,9 @@ body{
 /* Content */
 
 
-
+.sy-pager{
+  display: none;
+}
 
 /* Style for "logo" */
 .logo{
@@ -142,10 +144,8 @@ background-color: black;
 }
 
 .logobackground{
-  display: inline-block;
   background-color: black;
-  margin-top: -1.25rem;
-  margin-bottom: -.3rem;
+
   background-color: black;
 
 }
