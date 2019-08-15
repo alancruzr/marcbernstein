@@ -198,10 +198,10 @@ padding: 2rem 2rem 2rem 2rem;
 
 .animatedgif{
   /* Style for "WATCH OUR" */
-width: 30%;
+width: 25%;
 height: auto;
-margin-left: 30%;
+margin-left: 28%;
 margin-right: auto;
 margin-top: -9rem;
-background-image: url(assets/icons/playbutton.gif);
+
 }
