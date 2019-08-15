@@ -133,8 +133,10 @@ footer{
 }
 
 .signin{
+  position: absolute;
   font-family: 'Optima';
   font-size: .625rem;
+  padding-top: 2rem;
   margin-left: 72rem;
   color: white;
   background-color: transparent;
@@ -147,9 +149,9 @@ footer{
 .logo{
 max-width:19.625rem;
 height:auto;
-padding-top: 2rem;
+padding-top: 0;
 padding-left: 1.9rem;
-margin-top: 5rem;
+margin-top: 2rem;
 }
 
 .navigation{
