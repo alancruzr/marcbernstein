@@ -101,6 +101,7 @@ img{
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+  display: inline-block;
 
 }
 
@@ -198,10 +199,15 @@ padding: 2rem 2rem 2rem 2rem;
 
 .animatedgif{
   /* Style for "WATCH OUR" */
-width: 25%;
-height: auto;
-margin-left: 28%;
-margin-right: auto;
-margin-top: -9rem;
+  margin-top: -20rem;
+  padding-left: 17rem;
+
+position:relative;
+
+
+z-index:9999;
+
+
+
 
 }
