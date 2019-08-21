@@ -187,23 +187,15 @@ padding: 2rem 2rem 2rem 2rem;
   padding-top: 3rem;
 }
 
-.playbutton{
-  position: absolute;
 
-  padding-bottom: -5rem;
-  margin-bottom: -5rem;
-  padding-top: -5rem;
-  margin-left: auto;
-
-}
 
 img.animatedgif{
   /* Style for "WATCH OUR" */
-  margin-top: -30rem;
-  padding-left: 33rem;
-  position:relative;
+  position:fixed;
   z-index:9999;
   height: 20rem;
+  padding-left: 11rem;
+  margin-top: 25rem;
 
 
 
