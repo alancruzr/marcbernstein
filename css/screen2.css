@@ -197,16 +197,13 @@ padding: 2rem 2rem 2rem 2rem;
 
 }
 
-.animatedgif{
+img.animatedgif{
   /* Style for "WATCH OUR" */
-  margin-top: -20rem;
-  padding-left: 17rem;
-
-position:relative;
-
-
-z-index:9999;
-
+  margin-top: -30rem;
+  padding-left: 33rem;
+  position:relative;
+  z-index:9999;
+  height: 20rem;
 
 
 
