@@ -87,7 +87,7 @@ div{
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: black;
+  background-color: white;
 
 }
 
@@ -240,9 +240,12 @@ border: 0.313rem solid #ffffff;
 }
 
 .container2{
-  display: flex;
+  display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+
 
 }
 
@@ -252,4 +255,8 @@ width: 28.438rem;
 height: 28.438rem;
 padding-top: 0;
 margin-top: 0;
+padding-left: 0;
+padding-right: 0;
+margin-right: 0;
+margin-right: 0;
 }
