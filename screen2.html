@@ -22,64 +22,18 @@
 
       <ul id="demo1">
 
+        <img class="animatedgif" src="assets/icons/playbutton.gif" alt="">
 
 
         <li><a href="#slide2"><img src="assets/images/ourpromise.png"></a></li>
         <li><a href="#slide3"><img src="assets/images/ourspirit.png"></a></li>
         <li><a href="#slide3"><img src="assets/images/ourstory.png"></a></li>
         <li><a href="#slide3"><img src="assets/images/sustainability.png"></a></li>
-      </ul>
       </article>
 
     </section>
 
 
-
-
-<section>
-  <script type="text/javascript">
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'embeds.myshopify.com',
-      apiKey: '952162710f94aa7b7644b14b2a94f4a3',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [3030475907],
-        node: document.getElementById('product-component-05cfb487fb6'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-          "product": {
-            "styles": {
-              "button": {
-                "background-color": "#292929",
-                ":hover": {"background-color": "#464646"},
-                ":focus": {"background-color": "#464646"}
-              },
-            }
-          }
-        }
-      });
-    });
-  }
-
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  window.ShopifyBuy && window.ShopifyBuy.UI ? ShopifyBuyInit() : loadScript();
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-})();
-</script>
-<div id='product-component-05cfb487fb6'></div>
-</section>
 
     <!--End of Main Slider of Our Story-->
 
@@ -130,8 +84,6 @@
   });
 </script>
 <!--End of Scripts-->
-
-
 
   </body>
 </html>
