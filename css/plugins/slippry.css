@@ -70,9 +70,10 @@
 /* element that wraps the slides */
 .sy-slides-wrap {
   position: relative;
-  height: 70%;
-  width: 70%;
-margin-left: auto;
+  height: 100%;
+  width: 100%;
+margin-left: -1.2rem;
+padding-left: 0;
 margin-right: auto;}
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
@@ -163,7 +164,7 @@ margin-right: auto;}
     height: 100%;
     z-index: 33; }
     .sy-controls li.sy-prev {
-      left: -10%;
+      left: -5%;
       top: 0; }
       .sy-controls li.sy-prev a:after {
         background-position: -5% 0; }
@@ -196,8 +197,8 @@ margin-right: auto;}
         font-weight: 800;
         position: absolute;
         background-color: #fff;
-        width: 2em;
-        height: 2em;
+        width: 1em;
+        height: 1em;
         left: 90%;
         top: 50%;
         margin-top: -1.4em;

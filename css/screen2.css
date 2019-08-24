@@ -56,6 +56,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
 }
 
 
@@ -138,7 +139,7 @@ body{
 .logo{
 max-width:19.625rem;
 height:auto;
-padding-top: 2.3rem;
+padding-top: 2rem;
 padding-left: 1.9rem;
 margin-top: 0;
 background-color: black;
@@ -189,14 +190,14 @@ padding: 2rem 2rem 2rem 2rem;
 
 
 
+
 img.animatedgif{
   /* Style for "WATCH OUR" */
-  position:fixed;
+  position:absolute;
   z-index:9999;
-  height: 20rem;
-  padding-left: 11rem;
-  margin-top: 25rem;
 
+  height: 214px;
+  width: 214px;
 
 
 }
