@@ -293,6 +293,14 @@ margin-right: 0;
 }
 
 
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
 .scrollableimages{
   margin-left: 328px;
   margin-top: -8.9rem;
@@ -300,4 +308,10 @@ margin-right: 0;
   width: 33.563rem;
   height: 60.563rem;
 
+}
+
+.description{
+  width: 22.875rem;
+  height: 23.3125rem;
+  background-color: blue;
 }
