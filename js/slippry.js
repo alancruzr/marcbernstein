@@ -66,8 +66,8 @@
     autoDirection: 'next',
     autoHover: true,
     autoHoverDelay: 100,
-    autoDelay: 500,
-    pause: 4000,
+    autoDelay: 100,
+    pause: 8000,
 
     // callback functions
     onSliderLoad: function () { // when slider loaded
