@@ -314,4 +314,7 @@ margin-right: 0;
   width: 22.875rem;
   height: 23.3125rem;
   background-color: blue;
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 4.5rem;
 }
