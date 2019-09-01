@@ -328,3 +328,14 @@ margin-right: 0;
   margin-left: 18.8rem;
   margin-top: -8.99rem;
 }
+
+.colors{
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.green , .orange , .pink {
+  padding-right: 0.4375rem;
+}
