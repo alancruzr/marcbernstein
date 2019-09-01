@@ -291,25 +291,18 @@ margin-right: 0;
   text-align: left;
   color: white;
 }
-
-
-
 .container3{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-
 .scrollableimages{
   margin-left: 328px;
   margin-top: -8.9rem;
   background-color: white;
   width: 33.563rem;
   height: 60.563rem;
-
 }
-
 .description{
   width: 22.875rem;
   height: 23.3125rem;
