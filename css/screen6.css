@@ -322,3 +322,9 @@ margin-right: 0;
   margin-top: 7rem;
   background-color: black;
 }
+
+.arrow{
+  position: absolute;
+  margin-left: 18.8rem;
+  margin-top: -8.99rem;
+}
