@@ -346,8 +346,8 @@ margin-right: 0;
   flex-wrap: nowrap;
 }
 
-.antiquegoldblack , .blondgoldblack , .pinkgoldblack, .silverblack  {
-  padding-right: 0.4375rem;
+.colorbutton{
+  padding-right: 1.4375rem;
 }
 
 .control{
