@@ -185,7 +185,9 @@ button{
   font-family: 'Optima';
   font-size: .625rem;
   padding-top: 5rem;
-  margin-left:85rem;
+  margin-left:70rem;
+  margin-right: 0;
+  padding-right: 0;
   color: white;
   background-color: transparent;
   margin-bottom: -10rem;
