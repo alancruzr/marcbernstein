@@ -303,7 +303,7 @@ a:hover + .captioned-image-container {
     display: block;
 }
 
-div.container1:hover {
+.captioned-image-container:hover {
     display: block;
 }
 
