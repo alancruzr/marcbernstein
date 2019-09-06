@@ -252,6 +252,24 @@ border: 0.313rem solid #ffffff;
 
 }
 
+.container3{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+
+
+}.container4{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+
+
+}
+
 .box6, .box7, .box8{
   /* Style for "1" */
 width: 28.438rem;
@@ -275,6 +293,23 @@ margin-right: 0;
   display: block;
 
 }
+
+
+.captioned-image-container {
+    display:none;
+}
+
+a:hover + .captioned-image-container {
+    display: block;
+}
+
+div.container1:hover {
+    display: block;
+}
+
+
+
+
 
  .captioned-image-text{
    width: 100%;
